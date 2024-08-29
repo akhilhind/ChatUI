@@ -1,0 +1,57 @@
+/* src/App.css */
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.menu-container {
+  width: 20%;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.chat-container {
+  width: 80%;
+  padding: 20px;
+}
+
+.menu h3 {
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.chat-window {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
